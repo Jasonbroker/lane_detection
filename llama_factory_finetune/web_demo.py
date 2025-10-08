@@ -8,7 +8,8 @@ import gradio as gr
 import torch
 from transformers import AutoProcessor, AutoModelForImageTextToText, TextIteratorStreamer
 
-DEFAULT_CKPT_PATH = '/media/zzcc/file/aigc/llm/models/Qwen/Qwen2___5-VL-7B-Instruct'
+# DEFAULT_CKPT_PATH = '/media/zzcc/file/aigc/llm/models/Qwen/Qwen2___5-VL-7B-Instruct'
+DEFAULT_CKPT_PATH = '/media/zzcc/file/aigc/llm/models/Qwen/Qwen25-VL-3B-Instruct-finetune-full'
 
 
 def _get_args():

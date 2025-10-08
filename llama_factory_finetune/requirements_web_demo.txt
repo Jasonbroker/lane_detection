@@ -1,6 +1,6 @@
 # Core dependencies
-gradio==5.46.1
-gradio_client==1.13.1
+gradio
+gradio_client
 transformers-stream-generator==0.0.5
 git+https://github.com/huggingface/transformers.git
 torch

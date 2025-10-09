@@ -1,0 +1,6 @@
+cache_dir: null
+hub_name: huggingface
+lang: en
+last_model: Qwen2.5-VL-3B-Instruct
+path_dict:
+  Qwen2.5-VL-3B-Instruct: /media/zzcc/file/aigc/llm/models/Qwen/Qwen2___5-VL-3B-Instruct/

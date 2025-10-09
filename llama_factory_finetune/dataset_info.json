@@ -1,0 +1,16 @@
+{
+  "tusimple_llamafactory_tiny": {
+    "file_name": "tusimple_llamafactory_tiny.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }
+}

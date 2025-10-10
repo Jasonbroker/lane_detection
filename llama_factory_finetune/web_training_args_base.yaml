@@ -21,7 +21,7 @@ train.create_new_adapter: false
 train.cutoff_len: 2048
 train.dataset:
 - tusimple_llamafactory_tiny
-train.dataset_dir: /media/zzcc/file/aigc/llm/lane_detection/llama_factory_finetune
+train.dataset_dir: ./llama_factory_finetune
 train.ds_offload: false
 train.ds_stage: none
 train.enable_thinking: true
@@ -36,7 +36,7 @@ train.galore_rank: 16
 train.galore_scale: 2
 train.galore_target: all
 train.galore_update_interval: 200
-train.gradient_accumulation_steps: 16
+train.gradient_accumulation_steps: 8
 train.image_max_pixels: 1280*720
 train.image_min_pixels: 32*32
 train.learning_rate: 5e-5
